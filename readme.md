@@ -50,6 +50,29 @@ Each step is implemented as an independent node connected through a graph-based 
 
 ---
 
+# How to run
+
+- Clone the repo
+```
+git clone https://github.com/SoJaoAnant/LUMIQ_Research_Engine.git
+```
+- make a virtual environment
+```
+python -m venv venv
+```
+- activate the virtual environment
+```
+venv/scripts/activate
+```
+- pip install the requirements.txt file
+```
+pip install -r requirements.txt
+```
+- run the streamlit app
+```
+streamlit run app.py
+```
+
 # OpenRouter API Key
 
 This project uses OpenRouter for LLM inference.
